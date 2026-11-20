@@ -305,6 +305,21 @@ function getGeneratedData()
 
 	var awards = [
     {
+        year: 2026,
+        text: "Best Newcomer Tool Award at the Verification of Neural Networks Competition (VNN-COMP 2026) (vibecheck tool)",
+        links: [["blog", "vibecheck/"]]
+	},
+    {
+        year: 2026,
+        text: "Outstanding Infrastructure & Evaluation Award at the Verification of Neural Networks Competition (VNN-COMP 2026)",
+        links: [["slide", "perm/vnncomp2026_infrastructure_award.png"]]
+	},
+    {
+        year: 2026,
+        text: "Best Poster Award at ACNS",
+        links: [["certificate", "perm/acns2026_best_poster.jpg"]]
+	},
+    {
         year: 2024,
         text: "$20K Stony Brook Trustees Faculty Award",
         links: [["link", "https://www.stonybrook.edu/commcms/faculty-pathways/pages/sb_trustees_award.php"]]

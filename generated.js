@@ -5,6 +5,37 @@ function getGeneratedPublications()
 {
     var data = [
     {
+        type: "other",
+        key: "ladner2026vnncomp",
+        year: 2026,
+        acronym: "VNNCOMP",
+        title: "The 7th International Verification of Neural Networks Competition (VNN-COMP 2026): Summary and Results",
+        authors: "T. Ladner, K. Kaulen, S. Bak, J. Girard-Satabin, T. T. Johnson, E. Manino, T. H. Nguyen, B. Wooding, and H. Wu",
+        venue: "arXiv preprint",
+        links: [["arXiv", "https://arxiv.org/abs/2611.24114"]]
+    },
+    {
+        type: "other",
+        key: "arjomandbigdeli2026arxiv",
+        year: 2026,
+        acronym: "arXiv",
+        title: "Large Language Models as Falsifiers for Cyber-Physical Systems",
+        authors: "A. ArjomandBigdeli, J. Zhou, and S. Bak",
+        venue: "arXiv preprint",
+        links: [["arXiv", "https://arxiv.org/abs/2609.20752"]]
+    },
+    {
+        type: "other",
+        key: "mata2026acns",
+        year: 2026,
+        acronym: "ACNS",
+        title: "Certified Runtime Switching for Adversarially Robust Control",
+        authors: "A. Mata and S. Bak",
+        venue: "24th International Conference on Applied Cryptography and Network Security (Poster)",
+        boldnote: "Best Poster Award",
+        links: [["poster", "papers/mata2026acns_poster.pdf"], ["certificate", "perm/acns2026_best_poster.jpg"]]
+    },
+    {
         type: "conference",
         key: "cai2025aaai",
         year: 2025,
@@ -77,6 +108,16 @@ function getGeneratedPublications()
         authors: "E. Luo, Y. Huang, Y. Sun, and S. Bak",
         venue: "ACM/IEEE 16th International Conference on Cyber-Physical Systems (Poster)",
         links: [["link", "https://doi.org/10.1145/3716550.3725154"]]
+    },
+    {
+        type: "other",
+        key: "kaulen2025vnncomp",
+        year: 2025,
+        acronym: "VNNCOMP",
+        title: "The 6th International Verification of Neural Networks Competition (VNN-COMP 2025): Summary and Results",
+        authors: "K. Kaulen, T. Ladner, S. Bak, C. Brix, H. Duong, T. Flinkow, T. T. Johnson, L. Koller, E. Manino, T. H. Nguyen, and H. Wu",
+        venue: "arXiv preprint",
+        links: [["arXiv", "https://arxiv.org/abs/2512.19007"]]
     },
     {
         type: "other",
