@@ -290,7 +290,7 @@ function getGeneratedPublications()
         authors: "E. Luo, N. Kochdumper and S. Bak",
         venue: "26th International Conference on Hybrid Systems: Computation and Control",
         note: "43% acceptance rate,",
-        links: [["link", "https://dl.acm.org/doi/abs/10.1145/3575870.3587130"]]
+        links: [["link", "https://doi.org/10.1145/3575870.3587130"]]
     },
     {
         type: "conference",
@@ -301,7 +301,7 @@ function getGeneratedPublications()
         authors: "M. Wetzlinger, N. Kochdumper, S. Bak and M. Althoff",
         venue: "26th International Conference on Hybrid Systems: Computation and Control",
         note: "43% acceptance rate,",
-        links: [["link", "https://dl.acm.org/doi/abs/10.1145/3575870.3587121"]]
+        links: [["link", "https://doi.org/10.1145/3575870.3587121"]]
     },
     {
         type: "conference",
@@ -377,7 +377,7 @@ function getGeneratedPublications()
         authors: "L. Manzanas Lopez, T. T. Johnson, S. Bak, H. D. Tran and K. Hobbs ",
         venue: "Journal of Air Transportation",
         note: "Impact Factor: 1.24, Citations (GS): 24",
-        links: [["pdf", "papers/lopez2022jat.pdf"], ["link", "https://arc.aiaa.org/doi/full/10.2514/1.D0255"]]
+        links: [["pdf", "papers/lopez2022jat.pdf"], ["link", "https://doi.org/10.2514/1.D0255"]]
     },
     {
         type: "conference",
@@ -577,7 +577,7 @@ function getGeneratedPublications()
         title: "ARCH-COMP20 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics",
         authors: "M. Althoff, S. Bak, Z. Bao, M. Forets, G. Frehse, D. Freire, N. Kochdumper, Y. Li, s. Mitra, R. Ray, and C. Schilling",
         venue: "7th International Workshop on Applied Verification for Continuous and Hybrid Systems",
-        links: [["link", "https://easychair-www.easychair.org/publications/paper/DRpS"]]
+        links: [["link", "https://easychair.org/publications/paper/DRpS"]]
     },
     {
         type: "conference",
@@ -587,7 +587,7 @@ function getGeneratedPublications()
         title: "Verification of Neural Network Compression of ACAS Xu Lookup Tables with Star Set Reachability",
         authors: "D. Lopez, T. T. Johnson; H.D. Tran, S. Bak, X. Chen, and K. Hobbs",
         venue: "AIAA Scitech Forum",
-        links: [["link", "https://arc.aiaa.org/doi/abs/10.2514/6.2021-0995"]]
+        links: [["link", "https://doi.org/10.2514/6.2021-0995"]]
     },
     {
         type: "conference",
@@ -641,7 +641,7 @@ function getGeneratedPublications()
         authors: "P. Duggirala and S. Bak",
         venue: "16th ACM SIGBED International Conference on Embedded Software",
         note: "26% acceptance rate, published in special issue of ACM Transactions on Embedded Computing Systems (ACM TECS)",
-        links: [["pdf", "papers/duggirala2019emsoft.pdf"], ["poster", "papers/duggirala2019emsoftposter.pdf"], ["link", "https://dl.acm.org/citation.cfm?id=3358214"]]
+        links: [["pdf", "papers/duggirala2019emsoft.pdf"], ["poster", "papers/duggirala2019emsoftposter.pdf"], ["link", "https://doi.org/10.1145/3358214"]]
     },
     {
         type: "conference",
@@ -652,7 +652,7 @@ function getGeneratedPublications()
         authors: "S. Bak, H. D. Tran, and T. T. Johnson",
         venue: "22nd International Conference on Hybrid Systems: Computation and Control",
         note: "25% full paper acceptance rate",
-        links: [["pdf", "papers/bak2019hscc.pdf"], ["measurement scripts", "papers/bak2019hscc_repeatability.zip"], ["link", "https://dl.acm.org/citation.cfm?id=3311792"]]
+        links: [["pdf", "papers/bak2019hscc.pdf"], ["measurement scripts", "papers/bak2019hscc_repeatability.zip"], ["link", "https://doi.org/10.1145/3302504.3311792"]]
     },
     {
         type: "conference",
@@ -718,7 +718,7 @@ function getGeneratedPublications()
         authors: "S. Bak, P. Duggirala",
         venue: "20th International Conference on Hybrid Systems: Computation and Control",
         note: "38% acceptance rate",
-        links: [["pdf", "papers/bak2017hscc.pdf"], ["measurement scripts", "papers/bak2017hscc_repeatability.zip"], ["link", "http://dl.acm.org/citation.cfm?id=3049808"]]
+        links: [["pdf", "papers/bak2017hscc.pdf"], ["measurement scripts", "papers/bak2017hscc_repeatability.zip"], ["link", "https://doi.org/10.1145/3049797.3049808"]]
     },
     {
         type: "conference",
@@ -729,7 +729,7 @@ function getGeneratedPublications()
         authors: "S.Bak, S. Chaki",
         venue: "13th ACM SIGBED International Conference on Embedded Software",
         note: "26% acceptance rate",
-        links: [["pdf", "papers/bak2016emsoft.pdf"], ["link", "http://dl.acm.org/citation.cfm?doid=2968478.2968490"]]
+        links: [["pdf", "papers/bak2016emsoft.pdf"], ["link", "https://doi.org/10.1145/2968478.2968490"]]
     },
     {
         type: "conference",
@@ -739,7 +739,7 @@ function getGeneratedPublications()
         title: "Reset-Based Recovery for Real-Time Cyber-Physical Systems with Temporal Safety Constraints",
         authors: "F. Abdi, R. Mancuso, S. Bak, O. Dantsker, M. Caccamo",
         venue: "21st IEEE International Conference on Emerging Technology & Factory Automation",
-        links: [["pdf", "papers/abdi2016etfa.pdf"], ["link", "http://ieeexplore.ieee.org/document/7733561/"]]
+        links: [["pdf", "papers/abdi2016etfa.pdf"], ["link", "https://doi.org/10.1109/ETFA.2016.7733561"]]
     },
     {
         type: "conference",
@@ -751,7 +751,7 @@ function getGeneratedPublications()
         venue: "19th International Conference on Hybrid Systems: Computation and Control",
         note: "49% acceptance rate,",
         boldnote: "Best Repeatability Evaluation Package Award",
-        links: [["pdf", "papers/bak2016hscc.pdf"], ["link", "http://dl.acm.org/citation.cfm?id=2883837"], ["certificate", "perm/hscc2016certificate.jpg"], ["picture", "perm/hscc2016picture.jpg"]]
+        links: [["pdf", "papers/bak2016hscc.pdf"], ["link", "https://doi.org/10.1145/2883817.2883837"], ["certificate", "perm/hscc2016certificate.jpg"], ["picture", "perm/hscc2016picture.jpg"]]
     },
     {
         type: "conference",
@@ -762,7 +762,7 @@ function getGeneratedPublications()
         authors: "S. Bak, T. Johnson",
         venue: "36th IEEE Real-Time Systems Symposium",
         note: "22.5% conference acceptance rate (16.7% CPS track acceptance rate)",
-        links: [["pdf", "papers/bak2015rtss.pdf"], ["link", "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7383577"], ["slides", "papers/bak2015rtss_slides.pdf"]]
+        links: [["pdf", "papers/bak2015rtss.pdf"], ["link", "https://doi.org/10.1109/RTSS.2015.26"], ["slides", "papers/bak2015rtss_slides.pdf"]]
     },
     {
         type: "conference",
@@ -773,7 +773,7 @@ function getGeneratedPublications()
         authors: "S. Bak, S. Bogomolov, T. Johnson",
         venue: "ACM/IEEE 18th International Conference on Hybrid Systems: Computation and Control",
         note: "39% acceptance rate",
-        links: [["pdf", "papers/bak2015hscc.pdf"], ["link", "http://dl.acm.org/citation.cfm?id=2728606.2728630"], ["files", "http://www.verivital.com/hyst/"]]
+        links: [["pdf", "papers/bak2015hscc.pdf"], ["link", "https://doi.org/10.1145/2728606.2728630"], ["files", "http://www.verivital.com/hyst/"]]
     },
     {
         type: "conference",
@@ -784,7 +784,7 @@ function getGeneratedPublications()
         authors: "T. Johnson, S. Bak, S. Drager",
         venue: "6th ACM/IEEE International Conference on Cyber-Physical Systems",
         note: "27% acceptance rate",
-        links: [["link", "http://dl.acm.org/citation.cfm?id=2735979"]]
+        links: [["link", "https://doi.org/10.1145/2735960.2735979"]]
     },
     {
         type: "conference",
@@ -795,7 +795,7 @@ function getGeneratedPublications()
         authors: "R. Pellizzoni, N. Paryab, M.K. Yoon, S. Bak, S. Mohan, R. Bobba",
         venue: "21st IEEE Real-Time and Embedded Technology and Applications Symposium",
         note: "22% acceptance rate,",
-        links: [["link", "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7108450"]]
+        links: [["link", "https://doi.org/10.1109/RTAS.2015.7108450"]]
     },
     {
         type: "conference",
@@ -806,7 +806,7 @@ function getGeneratedPublications()
         authors: "S. Bak, T. Johnson, M. Caccamo, L. Sha",
         venue: "35th IEEE Real-Time Systems Symposium",
         note: "21% acceptance rate",
-        links: [["pdf", "papers/bak2014rtss.pdf"], ["link", "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7010482"]]
+        links: [["pdf", "papers/bak2014rtss.pdf"], ["link", "https://doi.org/10.1109/RTSS.2014.21"]]
     },
     {
         type: "conference",
@@ -817,7 +817,7 @@ function getGeneratedPublications()
         authors: "S. Bak, F. Abdi, Z. Huang, M. Caccamo",
         venue: "Proceedings of the IEEE conference on Embedded and Real-Time Computing Systems and Applications",
         note: "30% acceptance rate",
-        links: [["link", "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6732229"]]
+        links: [["link", "https://doi.org/10.1109/RTCSA.2013.6732229"]]
     },
     {
         type: "conference",
@@ -827,7 +827,7 @@ function getGeneratedPublications()
         title: "On-Chip Control Flow Integrity Check for Real Time Embedded Systems",
         authors: "F. Abdi, J. Van Der Woude, Y. Lu, S. Bak, M. Caccamo, L. Sha, R. Mancuso, S. Mohan",
         venue: "Proceedings of the IEEE International Conference on Cyber-Physical Systems, Networks, and Applications",
-        links: [["link", "http://ieeexplore.ieee.org/document/6614242/"]]
+        links: [["link", "https://doi.org/10.1109/CPSNA.2013.6614242"]]
     },
     {
         type: "conference",
@@ -838,7 +838,7 @@ function getGeneratedPublications()
         authors: "S. Mohan, S. Bak, E. Betti, H. Yun, L. Sha, M. Caccamo",
         venue: "Proceedings of the 2nd ACM International Conference on High Confidence Networked Systems",
         note: "57% acceptance rate",
-        links: [["link", "http://dl.acm.org/citation.cfm?id=2461456"]]
+        links: [["link", "https://doi.org/10.1145/2461446.2461456"]]
     },
     {
         type: "conference",
@@ -849,7 +849,7 @@ function getGeneratedPublications()
         authors: "S. Bak, G. Yao, R. Pellizzoni, M. Caccamo",
         venue: "18th IEEE International Conference on Embedded and Real-Time Computing Systems and Applications",
         note: "48% acceptance rate",
-        links: [["link", "http://ieeexplore.ieee.org/xpls/abs_all.jsp?tp=&arnumber=6300162&tag=1"]]
+        links: [["link", "https://doi.org/10.1109/RTCSA.2012.48"]]
     },
     {
         type: "conference",
@@ -860,7 +860,7 @@ function getGeneratedPublications()
         authors: "S. Bak, K. Manamcheri, S. Mitra, M. Caccamo",
         venue: "2nd ACM/IEEE International Conference on Cyber-Physical Systems",
         note: "25% acceptance rate",
-        links: [["link", "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5945416"]]
+        links: [["link", "https://doi.org/10.1109/ICCPS.2011.25"]]
     },
     {
         type: "conference",
@@ -871,7 +871,7 @@ function getGeneratedPublications()
         authors: "R. Pellizzoni, E. Betti, S. Bak, G. Yao, J. Criswell, M. Caccamo, R. Kegley",
         venue: "17th IEEE Real-Time and Embedded Technology and Applications Symposium",
         note: "21% acceptance rate",
-        links: [["link", "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5767117&tag=1"]]
+        links: [["link", "https://doi.org/10.1109/RTAS.2011.33"]]
     },
     {
         type: "conference",
@@ -881,7 +881,7 @@ function getGeneratedPublications()
         title: "Design, Implementation, and Evaluation of Covert Channel Attacks",
         authors: "H. Okhravi, S. Bak, S. T. King",
         venue: "10th IEEE International Conference on Technologies for Homeland Security",
-        links: [["link", "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5654967&tag=1"]]
+        links: [["link", "https://doi.org/10.1109/THS.2010.5654967"]]
     },
     {
         type: "conference",
@@ -893,7 +893,7 @@ function getGeneratedPublications()
         venue: "16th IEEE Real-Time and Embedded Technology and Applications Symposium",
         note: "22% acceptance rate,",
         boldnote: "Nominated for Best Paper Award",
-        links: [["link", "http://portal.acm.org/citation.cfm?id=1829218"]]
+        links: [["link", "https://doi.org/10.1109/RTAS.2010.27"]]
     },
     {
         type: "conference",
@@ -904,7 +904,7 @@ function getGeneratedPublications()
         authors: "S. Bak, E. Betti, R. Pellizzoni, M. Caccamo, L. Sha",
         venue: "30th IEEE Real-Time Systems Symposium",
         note: "22% acceptance rate",
-        links: [["link", "http://ieeexplore.ieee.org/document/5368829/"]]
+        links: [["link", "https://doi.org/10.1109/RTSS.2009.41"]]
     },
     {
         type: "conference",
@@ -915,7 +915,7 @@ function getGeneratedPublications()
         authors: "S. Bak, D. Chivukula, O. Adekunle, M. Sun, M. Caccamo, L. Sha",
         venue: "15th IEEE Real-Time and Embedded Technology and Applications Symposium",
         note: "26% acceptance rate",
-        links: [["link", "http://portal.acm.org/citation.cfm?id=1549638"]]
+        links: [["link", "https://doi.org/10.1109/RTAS.2009.20"]]
     },
     {
         type: "journal",
@@ -937,7 +937,7 @@ function getGeneratedPublications()
         authors: "L. V. Nguyen, K. Hoque, S. Bak, S. Drager and T. T. Johnson",
         venue: "ACM Transactions on Cyber-Physical Systems",
         note: "Impact Factor: 2.3, Citations (GS): 15",
-        links: [["pdf", "papers/nguyen2018tcps.pdf"], ["link", "https://dl.acm.org/citation.cfm?doid=3236466.3170500"]]
+        links: [["pdf", "papers/nguyen2018tcps.pdf"], ["link", "https://doi.org/10.1145/3170500"]]
     },
     {
         type: "journal",
@@ -959,7 +959,7 @@ function getGeneratedPublications()
         authors: "T. Johnson, S. Bak, M. Caccamo, L. Sha",
         venue: "ACM Transactions on Embedded Computing Systems",
         note: "Impact Factor: 2.8, Citations (GS): 53",
-        links: [["link", "http://dl.acm.org/citation.cfm?id=2723871"]]
+        links: [["link", "https://doi.org/10.1145/2723871"]]
     },
     {
         type: "journal",
@@ -981,7 +981,7 @@ function getGeneratedPublications()
         authors: "S. Bak, F. Abdi, Z. Huang, M. Caccamo",
         venue: "ACM Transactions on Embedded Computing Systems",
         note: "Impact Factor: 2.8, Citations (GS): 16",
-        links: [["link", "http://dl.acm.org/citation.cfm?id=2739046"]]
+        links: [["link", "https://doi.org/10.1145/2739046"]]
     },
     {
         type: "journal",
@@ -992,7 +992,7 @@ function getGeneratedPublications()
         authors: "E. Betti, S. Bak, R. Pellizzoni, M. Caccamo, L. Sha",
         venue: "IEEE Transactions on Computers",
         note: "Impact Factor: 3.6, Citations (GS): 47",
-        links: [["link", "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6051430&tag=1"]]
+        links: [["link", "https://doi.org/10.1109/TC.2011.202"]]
     },
     {
         type: "journal",
@@ -1014,7 +1014,7 @@ function getGeneratedPublications()
         authors: "S. Ahmed, S. Bak, J. McLaughlin, D. Renzi",
         venue: "SIAM Journal on Scientific Computing",
         note: "Impact Factor: 3.15, Citations (GS): 42",
-        links: [["link", "http://dl.acm.org/citation.cfm?id=2079154"]]
+        links: [["link", "https://doi.org/10.1137/10080258X"]]
     },
     {
         type: "journal",
@@ -1025,7 +1025,7 @@ function getGeneratedPublications()
         authors: "S. Bak, J. McLaughlin, D. Renzi",
         venue: "SIAM Journal on Scientific Computing",
         note: "Impact Factor: 3.15, Citations (GS): 77",
-        links: [["link", "http://dl.acm.org/citation.cfm?id=1958705"]]
+        links: [["link", "https://doi.org/10.1137/090749645"]]
     },
     {
         type: "other",
@@ -1148,7 +1148,7 @@ function getGeneratedPublications()
         venue: "4th International Workshop on Applied Verification for Continuous and Hybrid Systems",
         note: "83% acceptance rate,",
         boldnote: "Best Paper Award",
-        links: [["pdf", "papers/bak2017arch.pdf"], ["link", "https://easychair.org/publications/paper/342726"], ["measurement scripts", "papers/bak2017arch_repeatability.zip"]]
+        links: [["pdf", "papers/bak2017arch.pdf"], ["link", "https://easychair.org/publications/paper/bDRk"], ["measurement scripts", "papers/bak2017arch_repeatability.zip"]]
     },
     {
         type: "other",
@@ -1158,7 +1158,7 @@ function getGeneratedPublications()
         title: "ARCH-COMP17 Category Report: Continuous and Hybrid Systems with Linear Continuous Dynamics",
         authors: "M. Althoff, S. Bak, D. Cattaruzza, X. Chen, G. Frehse, R. Ray, S. Schupp",
         venue: "4th International Workshop on Applied Verification for Continuous and Hybrid Systems",
-        links: [["link", "https://easychair.org/publications/paper/352651"], ["measurement scripts", "papers/bak2017archcomp_repeatability.zip"]]
+        links: [["link", "https://easychair.org/publications/paper/X6"], ["measurement scripts", "papers/bak2017archcomp_repeatability.zip"]]
     },
     {
         type: "other",
@@ -1178,7 +1178,7 @@ function getGeneratedPublications()
         title: "Tutorial: Software Tools for Hybrid Systems Verification, Transformation, and Synthesis: C2E2, HyST, and TuLiP",
         authors: "P. Duggirala, C. Fan, M. Potok, B. Qi, S. Mitra, M. Viswanathan, S. Bak, S. Bogomolov, T. T. Johnson, L. V. Nguyen, C. Schilling, A. Sogokon, H. D. Tran, W. Xiang, S. Dathathri, I. Filippidis, S. C. Livingston, R. M. Murray, N. Ozay, C. Schiling",
         venue: "IEEE Multi-Conference on Systems and Control",
-        links: [["link", "http://ieeexplore.ieee.org/document/7587948"]]
+        links: [["link", "https://doi.org/10.1109/CCA.2016.7587948"]]
     },
     {
         type: "other",
@@ -1319,7 +1319,7 @@ function getGeneratedPublications()
         title: "A Step Towards Verification and Synthesis from Simulink/Stateflow Models",
         authors: "K. Manamcheri, S. Mitra, S. Bak, M. Caccamo",
         venue: "Poster, Proceedings of the 14th International Conference on Hybrid Systems: Computation and Control",
-        links: [["link", "http://dl.acm.org/citation.cfm?id=1967701.1967749"]]
+        links: [["link", "https://doi.org/10.1145/1967701.1967749"]]
     },
     {
         type: "other",
