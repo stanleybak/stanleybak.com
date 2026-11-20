@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+} 
+
+body
+{
+	font-size: large;
+	
+	margin-top: 70px;
+}
+
+.picture {
+  float: left;
+  max-width: 11%; 
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 40px;
+}
+
+a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
+
+.main {
+    margin-left: 15%;
+    margin-right: 10%;
+    min-width:600px;
+}

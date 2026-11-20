@@ -1,0 +1,185 @@
+<html ng-app="homepage">
+<head>
+<meta charset='utf-8'>
+    
+<title>Stanley Bak</title>
+<link rel="stylesheet" type="text/css" href="lib/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="homepage.css">
+
+<script src="lib/jquery.min.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+<script src="lib/angular.min.js"></script>
+<!--<script src="lib/angular-sanitize.min.js"></script>-->
+<script src="generated.js" charset="utf-8"> </script>
+<script src="generated_manual.js" charset="utf-8"> </script>
+<script src="homepage_script.js" charset="utf-8"> </script>
+
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body ng-controller="HomepageController" scroll-spy='' data-target="#myspynav">
+
+<nav class="navbar navbar-default navbar-fixed-top"  role="navigation">
+    <div >
+      <ul class="nav navbar-nav" id="myspynav">
+        <li class="active"><a href="#top"><b>Stanley Bak</b></a></li>
+        <!--<li><a href="#news">News</a></li>-->
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#awards">Awards</a></li>
+      </ul>
+    </div>
+</nav>
+
+<a class="anchor" id="top"></a>
+
+<img class="img-rounded picture" src="perm/pic5.jpg">
+
+<div class="main">
+
+<font size="+2"><b>
+<noscript>This website extensively uses Javascript; please enable it and refresh.</noscript>
+</b></font>
+<br />
+
+Stanley Bak is an associate professor in the <a href="https://www.cs.stonybrook.edu/">Department of Computer Science at Stony Brook University</a> investigating the verification of autonomy, cyber-physical systems, and neural networks. 
+He strives to develop practical formal methods that are both scalable and useful, which demands developing new theory, programming efficient tools and building experimental systems.
+
+<br /><br /> 
+<b>Short Bio:</b> Stanley Bak received his PhD from the the Department of Computer Science at the University of Illinois at Urbana-Champaign (UIUC) in 2013 and then worked for several years at the Air Force Research Laboratory (AFRL) in the Verification and Validation (V&amp;V) group of the Aerospace Systems Directorate. He received the <a href="https://news.stonybrook.edu/homespotlight/computer-science-professor-awarded-by-air-forces-young-investigator-research-program/">AFOSR Young Investigator Research Program (YIP) award</a> in 2020 and the <a href="https://www.cs.stonybrook.edu/about-us/News/third-2023-career-awardee">NSF CAREER award</a> in 2023. He is currently an associate professor in the Department of Computer Science at Stony Brook University. 
+
+<!-- In 2024, he was <a href="perm/election.pdf">elected to the board of education</a> in the Three Village Central School District, where he oversees the education of over 5500 K-12 students with an annual budget of over $230 million. -->
+
+<br /><br /> 
+<b>Longer Bio:</b> Stanley Bak received a Bachelor's degree in Computer Science from <a href="http://www.rpi.edu/">Rensselaer Polytechnic Institute</a> (RPI)
+ in 2007 (summa cum laude), and a Master's degree in Computer Science from the <a href="http://www.uiuc.edu/">University of Illinois at 
+ Urbana-Champaign</a> (UIUC) in 2009. He completed his PhD from the Department of Computer Science at UIUC in 2013. 
+ <!-- He received the <a href="http://news.rpi.edu/update.do?artcenterkey=575">Founders Award of Excellence</a> for his undergraduate research 
+ at RPI in 2004, the <a href="http://cs.illinois.edu/csillinois/awards?quicktabs_17=3">Debra and Ira Cohen Graduate Fellowship</a> from 
+ UIUC twice, in 2008 and 2009, and was awarded the <a href="https://smart.asee.org/">Science, Mathematics and Research for 
+ Transformation</a> (SMART) Scholarship from 2009 to 2013. -->
+ From 2013 to 2018, Stanley was a Research Computer Scientist at the US Air Force Research Lab (AFRL), both in the Information Directorate in Rome, NY, and in the Verification and Validation (V&amp;V) group in the Aerospace Systems Directorate in Dayton, OH. 
+ He helped run Safe Sky Analytics, a research consulting company investigating verification and autonomous systems, and performed teaching at Georgetown University in 2019.
+ He joined Stony Brook University in Fall 2020, where he is an associate professor in the Department of Computer Science. He received the <a href="https://news.stonybrook.edu/homespotlight/computer-science-professor-awarded-by-air-forces-young-investigator-research-program/">US Air Force Office of Scientific Research (AFOSR) Young Investigator Research Program (YIP) award</a> in 2020, the <a href="https://www.cs.stonybrook.edu/about-us/News/third-2023-career-awardee">National Science Foundation (NSF) CAREER Award</a> in 2023, and the Stony Brook Trustees Faculty Award in 2024. In 2024, he was also <a href="perm/election.pdf">elected</a> to the board of education in the Three Village Central School District, where he oversees the education of over 5000 K-12 students with an annual budget of over $230 million.
+<br /> <br />
+
+<b>Email</b>: {{makeEmail()}}stony<b></b>brook<b></b>.e<tt></tt>du
+<br />
+<b>CV</b>: <a href="papers/bak_cv.pdf">pdf</a> 
+<br />
+<b>Google Scholar</b>:
+<a href="https://scholar.google.com/citations?user=IzNAqc8AAAAJ">link</a> ({{gs_citations}} citations, h-index {{gs_hindex}} as of {{gs_date}})
+<br /> <br />
+<b>Courses: </b> <br />
+CSE 352 - Artificial Intelligence (Sp24, Sp25) <br />
+CSE 510 - Hybrid Systems (Sp21, Fa21, Fa23, Sp25) <br />
+CSE 643 - Cyber-Physical Systems Verification Seminar (Fa21)
+<br />
+
+<!--
+<a href="hsscps">Short Course on Hybrid Automata and Verification</a>
+<a href="https://sites.google.com/georgetown.edu/cosc560
+">COSC 560</a> -->
+
+<!--<hr>
+<a class="anchor" id="news"></a>
+<font size="+3">Recent News</font> <br />
+
+<a class="twitter-timeline" data-width="550" data-height="400" data-dnt="true" data-theme="light" data-link-color="#32AF32" data-chrome="noheader nofooter" href="https://twitter.com/stanleybak">News by stanleybak</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+-->
+
+<hr>
+<a class="anchor" id="publications"></a>
+<font size="+3">Publications</font> <br />
+<!----------------------------------------------->
+<font size="+1"><b>Conference Papers</b></font> <br />
+<div ng-cloak> <ul>
+    <li ng-repeat="item in publications" ng-if="item.type=='conference'"><i>"{{item.title}}"</i>, {{item.authors}}, {{item.venue}} ({{item.acronym}} {{item.year}}), {{item.note}}
+    <b>{{item.boldnote}}</b>
+    (<a ng-href="#" data-toggle="modal" data-target="#bibModal" ng-click="updateBibtex(item);" ng-init="checkBibUrl(item);">bib</a>)
+    <span ng-repeat="link in item.links">(<a ng-init="checkUrl(link[1]);" href="{{link[1]}}">{{link[0]}}</a>) </span> <br /><br />
+    </li>
+</ul> </div>
+
+<!----------------------------------------------->
+<font size="+1"><b>Journal Articles</b></font> <br />
+<div ng-cloak> <ul>
+    <li ng-repeat="item in publications" ng-if="item.type=='journal'"><i>"{{item.title}}"</i>, {{item.authors}}, {{item.venue}} ({{item.acronym}} {{item.year}}), {{item.note}}
+    <b>{{item.boldnote}}</b>
+    (<a ng-href="#" data-toggle="modal" data-target="#bibModal" ng-click="updateBibtex(item);" ng-init="checkBibUrl(item);">bib</a>)
+    <span ng-repeat="link in item.links">(<a ng-init="checkUrl(link[1]);" href="{{link[1]}}">{{link[0]}}</a>) </span> <br /><br />
+    </li>
+</ul> </div>
+
+<!----------------------------------------------->
+<font size="+1"><b>Other</b></font> <br />
+<div ng-cloak> <ul>
+    <li ng-repeat="item in publications" ng-if="item.type=='other'"><i>"{{item.title}}"</i>, {{item.authors}}, {{item.venue}} ({{item.acronym}} {{item.year}}), {{item.note}}
+    <b>{{item.boldnote}}</b>
+    (<a ng-href="#" data-toggle="modal" data-target="#bibModal" ng-click="updateBibtex(item);" ng-init="checkBibUrl(item);">bib</a>)
+    <span ng-repeat="link in item.links">(<a ng-init="checkUrl(link[1]);" href="{{link[1]}}">{{link[0]}}</a>) </span> <br /><br />
+    </li>
+</ul> </div>
+
+
+<font size="-2">
+Copyright Notice: This material is presented to ensure timely dissemination of scholarly and technical work. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author's copyright. In most cases, these works may not be reposted without the explicit permission of the copyright holder.<br/><br/>
+
+For certain papers (see notices inside): The U.S. government is authorized to reproduce and distribute reprints for Governmental purposes notwithstanding any copyright notation thereon. These papers were authored by an employee(s) of the United States Government and are in the public domain. Non-exclusive copying or redistribution is allowed, provided that the article citation is given and the authors and agency are clearly identified as its source.<br/> <br/>
+
+For some of the above publications: The final publication is available at link.springer.com.
+</font>
+
+
+<br /><hr>
+<a class="anchor" id="awards"></a>
+<font size="+3">Awards</font> <br />
+
+<div ng-cloak> <ul>
+    <li ng-repeat="item in awards">{{item.text}} 
+    <span ng-repeat="link in item.links">(<a href="{{link[1]}}">{{link[0]}}</a>) </span>
+    ({{item.year}})
+    </li>
+</ul> </div>
+
+<br />
+
+<!--
+<hr>
+<font size="+3">Other</font> <br />
+<ul>
+<a href="https://www.overleaf.com/read/kpmqfwtgxryh">Weekly Research Report Latex Template</a> 
+-->
+
+</div>
+
+ <!-- .bib Modal -->
+<div class="modal fade" id="bibModal" role="dialog">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h4 class="modal-title">Bibtex Code</h4>
+    </div>
+    <div class="modal-body">
+            <pre id="modal_bibtex"> </pre>
+            <br />
+            <a href ="{{modal_link}}">Raw File</a>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+<!-- a hidden form for submitting the cv in latex to overleaf
+
+<form ng-cloak ng-hide='true' action="https://www.overleaf.com/docs" method="post" target="_blank" id="overleaf_form">
+<textarea id="cv_text" name="snip" ></textarea>
+<input type="submit" class="wl-submit" />
+</form> 
+-->
+
+
+</body></html>
