@@ -322,7 +322,7 @@ function getGeneratedData()
     {
         year: 2024,
         text: "$20K Stony Brook Trustees Faculty Award",
-        links: [["link", "https://www.stonybrook.edu/commcms/faculty-pathways/pages/sb_trustees_award.php"]]
+        links: [["link", "https://archivednews.cs.stonybrook.edu/about-us/News/stanley-bak-wins-trustees-award"]]
 	},
     {
         year: 2024,
